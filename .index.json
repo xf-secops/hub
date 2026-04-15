@@ -2595,6 +2595,32 @@
         }
       }
     },
+    "crowdsecurity/vpatch-CVE-2023-3197": {
+      "author": "crowdsecurity",
+      "content": "IyMgYXV0b2dlbmVyYXRlZCBvbiAyMDI2LTAzLTMwIDEyOjQ2OjUxCm5hbWU6IGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIzLTMxOTcKZGVzY3JpcHRpb246ICdEZXRlY3RzIHVuYXV0aGVudGljYXRlZCBTUUwgaW5qZWN0aW9uIGluIFdvcmRQcmVzcyBNU3RvcmUgQVBJIHBsdWdpbiB2aWEgaWQgcGFyYW1ldGVyLicKcnVsZXM6CiAgLSBhbmQ6CiAgICAgIC0gem9uZXM6CiAgICAgICAgICAtIFVSSQogICAgICAgIHRyYW5zZm9ybToKICAgICAgICAgIC0gbG93ZXJjYXNlCiAgICAgICAgICAtIHVybGRlY29kZQogICAgICAgIG1hdGNoOgogICAgICAgICAgdHlwZTogY29udGFpbnMKICAgICAgICAgIHZhbHVlOiAvd3AtanNvbi9hcGkvZmx1dHRlcl9tdWx0aV92ZW5kb3IvcHJvZHVjdC1jYXRlZ29yaWVzCiAgICAgIC0gem9uZXM6CiAgICAgICAgICAtIEFSR1MKICAgICAgICB2YXJpYWJsZXM6CiAgICAgICAgICAtIGlkCiAgICAgICAgdHJhbnNmb3JtOgogICAgICAgICAgLSBsb3dlcmNhc2UKICAgICAgICAgIC0gdXJsZGVjb2RlCiAgICAgICAgbWF0Y2g6CiAgICAgICAgICB0eXBlOiByZWdleAogICAgICAgICAgdmFsdWU6ICdbXmEtejAtOV0nCgpsYWJlbHM6CiAgdHlwZTogZXhwbG9pdAogIHNlcnZpY2U6IGh0dHAKICBjb25maWRlbmNlOiAzCiAgc3Bvb2ZhYmxlOiAwCiAgYmVoYXZpb3I6ICdodHRwOmV4cGxvaXQnCiAgbGFiZWw6ICdXb3JkUHJlc3MgTVN0b3JlIEFQSSAtIFNRTEknCiAgY2xhc3NpZmljYXRpb246CiAgICAtIGN2ZS5DVkUtMjAyMy0zMTk3CiAgICAtIGF0dGFjay5UMTE5MAogICAgLSBjd2UuQ1dFLTg5Cg==",
+      "description": "Detects unauthenticated SQL injection in WordPress MStore API plugin via id parameter.",
+      "labels": {
+        "behavior": "http:exploit",
+        "classification": [
+          "cve.CVE-2023-3197",
+          "attack.T1190",
+          "cwe.CWE-89"
+        ],
+        "confidence": 3,
+        "label": "WordPress MStore API - SQLI",
+        "service": "http",
+        "spoofable": 0,
+        "type": "exploit"
+      },
+      "path": "appsec-rules/crowdsecurity/vpatch-CVE-2023-3197.yaml",
+      "version": "0.1",
+      "versions": {
+        "0.1": {
+          "deprecated": false,
+          "digest": "3aa0ba2809288c222157e493466cd4fde98fdbbe3674442cd5d56c9a9d003ba5"
+        }
+      }
+    },
     "crowdsecurity/vpatch-CVE-2023-33617": {
       "author": "crowdsecurity",
       "content": "bmFtZTogY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjMtMzM2MTcKZGVzY3JpcHRpb246ICJBdGxhc3NpYW4gQ29uZmx1ZW5jZSBQcml2ZXNjIChDVkUtMjAyMy0zMzYxNykiCnJ1bGVzOgogIC0gYW5kOgogICAgLSB6b25lczoKICAgICAgLSBNRVRIT0QKICAgICAgdHJhbnNmb3JtOgogICAgICAtIGxvd2VyY2FzZQogICAgICBtYXRjaDoKICAgICAgICB0eXBlOiBlcXVhbHMKICAgICAgICB2YWx1ZTogcG9zdAogICAgLSB6b25lczoKICAgICAgLSBVUkkKICAgICAgdHJhbnNmb3JtOgogICAgICAtIGxvd2VyY2FzZQogICAgICBtYXRjaDoKICAgICAgICB0eXBlOiBlbmRzV2l0aAogICAgICAgIHZhbHVlOiAvYm9hZm9ybS9hZG1pbi9mb3JtbG9naW4KICAgIC0gem9uZXM6CiAgICAgIC0gQk9EWV9BUkdTCiAgICAgIHZhcmlhYmxlczoKICAgICAgIC0gdXNlcm5hbWUKICAgICAgdHJhbnNmb3JtOgogICAgICAtIGxvd2VyY2FzZQogICAgICBtYXRjaDoKICAgICAgICB0eXBlOiBlcXVhbHMKICAgICAgICB2YWx1ZTogImFkbWluIgogICAgLSB6b25lczoKICAgICAgLSBCT0RZX0FSR1MKICAgICAgdmFyaWFibGVzOgogICAgICAgLSBwc2QKICAgICAgdHJhbnNmb3JtOgogICAgICAtIGxvd2VyY2FzZQogICAgICBtYXRjaDoKICAgICAgICB0eXBlOiBlcXVhbHMKICAgICAgICB2YWx1ZTogInBhcmtzIgogIC0gYW5kOgogICAgLSB6b25lczoKICAgICAgLSBNRVRIT0QKICAgICAgbWF0Y2g6CiAgICAgICAgdHlwZTogZXF1YWxzCiAgICAgICAgdmFsdWU6IFBPU1QKICAgIC0gem9uZXM6CiAgICAgIC0gVVJJCiAgICAgIHRyYW5zZm9ybToKICAgICAgLSBsb3dlcmNhc2UKICAgICAgbWF0Y2g6CiAgICAgICAgdHlwZTogZW5kc1dpdGgKICAgICAgICB2YWx1ZTogL2JvYWZvcm0vYWRtaW4vZm9ybXBpbmcKICAgIC0gem9uZXM6CiAgICAgIC0gQk9EWV9BUkdTCiAgICAgIHZhcmlhYmxlczoKICAgICAgLSB0YXJnZXRfYWRkcgogICAgICB0cmFuc2Zvcm06CiAgICAgIC0gbG93ZXJjYXNlCiAgICAgIG1hdGNoOgogICAgICAgIHR5cGU6IHJlZ2V4CiAgICAgICAgdmFsdWU6ICJbXmEtZjAtOTouXSsiCmxhYmVsczoKICB0eXBlOiBleHBsb2l0CiAgc2VydmljZTogaHR0cAogIGNvbmZpZGVuY2U6IDMKICBzcG9vZmFibGU6IDAKICBiZWhhdmlvcjogImh0dHA6ZXhwbG9pdCIKICBsYWJlbDogIkF0bGFzc2lhbiBDb25mbHVlbmNlIC0gUHJpdmlsZWdlIEVzY2FsYXRpb24iCiAgY2xhc3NpZmljYXRpb246CiAgIC0gY3ZlLkNWRS0yMDIzLTMzNjE3CiAgIC0gYXR0YWNrLlQxNTk1CiAgIC0gYXR0YWNrLlQxMTkwCiAgIC0gY3dlLkNXRS03OA==",
@@ -8670,10 +8696,11 @@
         "crowdsecurity/generic-wordpress-uploads-php",
         "crowdsecurity/vpatch-CVE-2024-6205",
         "crowdsecurity/vpatch-CVE-2022-3254",
-        "crowdsecurity/generic-wordpress-uploads-listing"
+        "crowdsecurity/generic-wordpress-uploads-listing",
+        "crowdsecurity/vpatch-CVE-2023-3197"
       ],
       "author": "crowdsecurity",
-      "content": "bmFtZTogY3Jvd2RzZWN1cml0eS9hcHBzZWMtd29yZHByZXNzCmFwcHNlYy1ydWxlczoKICAtIGNyb3dkc2VjdXJpdHkvYmFzZS1jb25maWcKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIzLTA2MDAKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIzLTA5MDAKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIzLTIwMDkKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIzLTIzNDg4CiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyMy0yMzQ4OQogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjMtNDYzNAogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjMtNjM2MAogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjMtNjU2NwogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjMtNjYyMwogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtMTA2MQogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtMTA3MQogIC0gY3Jvd2RzZWN1cml0eS9nZW5lcmljLXdvcmRwcmVzcy11cGxvYWRzLXBocAogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtNjIwNQogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjItMzI1NAogIC0gY3Jvd2RzZWN1cml0eS9nZW5lcmljLXdvcmRwcmVzcy11cGxvYWRzLWxpc3RpbmcKYXBwc2VjLWNvbmZpZ3M6CiAgLSBjcm93ZHNlY3VyaXR5L3ZpcnR1YWwtcGF0Y2hpbmcKcGFyc2VyczoKICAtIGNyb3dkc2VjdXJpdHkvYXBwc2VjLWxvZ3MKc2NlbmFyaW9zOgogIC0gY3Jvd2RzZWN1cml0eS9hcHBzZWMtdnBhdGNoCiAgLSBjcm93ZHNlY3VyaXR5L2FwcHNlYy1uYXRpdmUKY29udGV4dHM6CiAgLSBjcm93ZHNlY3VyaXR5L2FwcHNlY19iYXNlCmRlc2NyaXB0aW9uOiAiQSB2aXJ0dWFsIHBhdGNoaW5nIGNvbGxlY3Rpb24sIHN1aXRhYmxlIGZvciBXb3JkUHJlc3Mgd2Vic2l0ZXMiCmxhYmVsczoKICBsYWJlbDogIldvcmRQcmVzcyAtIFdBRiBSdWxlcyIKYXV0aG9yOiBjcm93ZHNlY3VyaXR5CnRhZ3M6CiAgLSB3YWYK",
+      "content": "bmFtZTogY3Jvd2RzZWN1cml0eS9hcHBzZWMtd29yZHByZXNzCmFwcHNlYy1ydWxlczoKICAtIGNyb3dkc2VjdXJpdHkvYmFzZS1jb25maWcKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIzLTA2MDAKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIzLTA5MDAKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIzLTIwMDkKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIzLTIzNDg4CiAgLSBjcm93ZHNlY3VyaXR5L3ZwYXRjaC1DVkUtMjAyMy0yMzQ4OQogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjMtNDYzNAogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjMtNjM2MAogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjMtNjU2NwogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjMtNjYyMwogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtMTA2MQogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtMTA3MQogIC0gY3Jvd2RzZWN1cml0eS9nZW5lcmljLXdvcmRwcmVzcy11cGxvYWRzLXBocAogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjQtNjIwNQogIC0gY3Jvd2RzZWN1cml0eS92cGF0Y2gtQ1ZFLTIwMjItMzI1NAogIC0gY3Jvd2RzZWN1cml0eS9nZW5lcmljLXdvcmRwcmVzcy11cGxvYWRzLWxpc3RpbmcKICAtIGNyb3dkc2VjdXJpdHkvdnBhdGNoLUNWRS0yMDIzLTMxOTcKYXBwc2VjLWNvbmZpZ3M6CiAgLSBjcm93ZHNlY3VyaXR5L3ZpcnR1YWwtcGF0Y2hpbmcKcGFyc2VyczoKICAtIGNyb3dkc2VjdXJpdHkvYXBwc2VjLWxvZ3MKc2NlbmFyaW9zOgogIC0gY3Jvd2RzZWN1cml0eS9hcHBzZWMtdnBhdGNoCiAgLSBjcm93ZHNlY3VyaXR5L2FwcHNlYy1uYXRpdmUKY29udGV4dHM6CiAgLSBjcm93ZHNlY3VyaXR5L2FwcHNlY19iYXNlCmRlc2NyaXB0aW9uOiAiQSB2aXJ0dWFsIHBhdGNoaW5nIGNvbGxlY3Rpb24sIHN1aXRhYmxlIGZvciBXb3JkUHJlc3Mgd2Vic2l0ZXMiCmxhYmVsczoKICBsYWJlbDogIldvcmRQcmVzcyAtIFdBRiBSdWxlcyIKYXV0aG9yOiBjcm93ZHNlY3VyaXR5CnRhZ3M6CiAgLSB3YWYK",
       "contexts": [
         "crowdsecurity/appsec_base"
       ],
@@ -8690,7 +8717,7 @@
         "crowdsecurity/appsec-vpatch",
         "crowdsecurity/appsec-native"
       ],
-      "version": "0.8",
+      "version": "0.9",
       "versions": {
         "0.1": {
           "deprecated": false,
@@ -8723,6 +8750,10 @@
         "0.8": {
           "deprecated": false,
           "digest": "8275e964719ea8bc0530c9fd06fad7e6ed4975a80cc1d94c4e82c2ca67c0cb1c"
+        },
+        "0.9": {
+          "deprecated": false,
+          "digest": "81650393ee520918ae7299d7c0f3809d4707714421e62445ab5357e3fc7207d1"
         }
       }
     },
