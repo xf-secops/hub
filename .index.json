@@ -9033,7 +9033,7 @@
       "collections": [
         "crowdsecurity/http-cve"
       ],
-      "content": "bmFtZTogY3Jvd2RzZWN1cml0eS9iYXNlLWh0dHAtc2NlbmFyaW9zCnBhcnNlcnM6CiAgLSBjcm93ZHNlY3VyaXR5L2h0dHAtbG9ncwpzY2VuYXJpb3M6CiAgLSBjcm93ZHNlY3VyaXR5L2h0dHAtY3Jhd2wtbm9uX3N0YXRpY3MKICAtIGNyb3dkc2VjdXJpdHkvaHR0cC1wcm9iaW5nCiAgLSBjcm93ZHNlY3VyaXR5L2h0dHAtYmFkLXVzZXItYWdlbnQKICAtIGNyb3dkc2VjdXJpdHkvaHR0cC1wYXRoLXRyYXZlcnNhbC1wcm9iaW5nCiAgLSBjcm93ZHNlY3VyaXR5L2h0dHAtc2Vuc2l0aXZlLWZpbGVzCiAgLSBjcm93ZHNlY3VyaXR5L2h0dHAtc3FsaS1wcm9iaW5nCiAgLSBjcm93ZHNlY3VyaXR5L2h0dHAteHNzLXByb2JpbmcKICAtIGNyb3dkc2VjdXJpdHkvaHR0cC1iYWNrZG9vcnMtYXR0ZW1wdHMKICAtIGx0c2ljaC9odHRwLXcwMHR3MDB0CiAgLSBjcm93ZHNlY3VyaXR5L2h0dHAtZ2VuZXJpYy1iZgogIC0gY3Jvd2RzZWN1cml0eS9odHRwLW9wZW4tcHJveHkKICAtIGNyb3dkc2VjdXJpdHkvaHR0cC1hZG1pbi1pbnRlcmZhY2UtcHJvYmluZwogIC0gY3Jvd2RzZWN1cml0eS9odHRwLXdvcmRwcmVzcy1zY2FuCiAgLSBjcm93ZHNlY3VyaXR5L2h0dHAtY3ZlLXByb2JpbmcKICAtIGNyb3dkc2VjdXJpdHkvaHR0cC1zYXAtaW50ZXJmYWNlLXByb2JpbmcKICAtIGNyb3dkc2VjdXJpdHkvaHR0cC1nZW5lcmljLXRlc3QKY29sbGVjdGlvbnM6CiAgLSBjcm93ZHNlY3VyaXR5L2h0dHAtY3ZlCmNvbnRleHRzOgogIC0gY3Jvd2RzZWN1cml0eS9odHRwX2Jhc2UKZGVzY3JpcHRpb246ICJodHRwIGNvbW1vbiA6IHNjYW5uZXJzIGRldGVjdGlvbiIKbGFiZWxzOgogIGxhYmVsOiAiSFRUUCAtIEdlbmVyaWMgUHJvdGVjdGlvbiIKYXV0aG9yOiBjcm93ZHNlY3VyaXR5CnRhZ3M6CiAgLSBzZWN1cml0eV9lbmdpbmUKICAtIGxpbnV4CiAgLSBodHRwCiAgLSBjcmF3bAogIC0gc2Nhbgo=",
+      "content": "bmFtZTogY3Jvd2RzZWN1cml0eS9iYXNlLWh0dHAtc2NlbmFyaW9zCnBhcnNlcnM6CiAgLSBjcm93ZHNlY3VyaXR5L2h0dHAtbG9ncwpzY2VuYXJpb3M6CiAgLSBjcm93ZHNlY3VyaXR5L2h0dHAtY3Jhd2wtbm9uX3N0YXRpY3MKICAtIGNyb3dkc2VjdXJpdHkvaHR0cC1wcm9iaW5nCiAgLSBjcm93ZHNlY3VyaXR5L2h0dHAtYmFkLXVzZXItYWdlbnQKICAtIGNyb3dkc2VjdXJpdHkvaHR0cC1wYXRoLXRyYXZlcnNhbC1wcm9iaW5nCiAgLSBjcm93ZHNlY3VyaXR5L2h0dHAtc2Vuc2l0aXZlLWZpbGVzCiAgLSBjcm93ZHNlY3VyaXR5L2h0dHAtc3FsaS1wcm9iaW5nCiAgLSBjcm93ZHNlY3VyaXR5L2h0dHAteHNzLXByb2JpbmcKICAtIGNyb3dkc2VjdXJpdHkvaHR0cC1iYWNrZG9vcnMtYXR0ZW1wdHMKICAtIGx0c2ljaC9odHRwLXcwMHR3MDB0CiAgLSBjcm93ZHNlY3VyaXR5L2h0dHAtZ2VuZXJpYy1iZgogIC0gY3Jvd2RzZWN1cml0eS9odHRwLW9wZW4tcHJveHkKICAtIGNyb3dkc2VjdXJpdHkvaHR0cC1hZG1pbi1pbnRlcmZhY2UtcHJvYmluZwogIC0gY3Jvd2RzZWN1cml0eS9odHRwLXdvcmRwcmVzcy1zY2FuCiAgLSBjcm93ZHNlY3VyaXR5L2h0dHAtY3ZlLXByb2JpbmcKICAtIGNyb3dkc2VjdXJpdHkvaHR0cC1zYXAtaW50ZXJmYWNlLXByb2JpbmcKICAtIGNyb3dkc2VjdXJpdHkvaHR0cC1nZW5lcmljLXRlc3QKICAtIGNyb3dkc2VjdXJpdHkvaHR0cC10ZWNobm9sb2d5LXByb2JpbmcKY29sbGVjdGlvbnM6CiAgLSBjcm93ZHNlY3VyaXR5L2h0dHAtY3ZlCmNvbnRleHRzOgogIC0gY3Jvd2RzZWN1cml0eS9odHRwX2Jhc2UKZGVzY3JpcHRpb246ICJodHRwIGNvbW1vbiA6IHNjYW5uZXJzIGRldGVjdGlvbiIKbGFiZWxzOgogIGxhYmVsOiAiSFRUUCAtIEdlbmVyaWMgUHJvdGVjdGlvbiIKYXV0aG9yOiBjcm93ZHNlY3VyaXR5CnRhZ3M6CiAgLSBzZWN1cml0eV9lbmdpbmUKICAtIGxpbnV4CiAgLSBodHRwCiAgLSBjcmF3bAogIC0gc2Nhbgo=",
       "contexts": [
         "crowdsecurity/http_base"
       ],
@@ -9062,9 +9062,10 @@
         "crowdsecurity/http-wordpress-scan",
         "crowdsecurity/http-cve-probing",
         "crowdsecurity/http-sap-interface-probing",
-        "crowdsecurity/http-generic-test"
+        "crowdsecurity/http-generic-test",
+        "crowdsecurity/http-technology-probing"
       ],
-      "version": "1.3",
+      "version": "1.4",
       "versions": {
         "0.1": {
           "deprecated": false,
@@ -9117,6 +9118,10 @@
         "1.3": {
           "deprecated": false,
           "digest": "1e09dd9ec002d6dae6106d968acf6421a449d5241f4135fbc102049b9bde3164"
+        },
+        "1.4": {
+          "deprecated": false,
+          "digest": "e35b4e692c87bf485b897e8351496ce4e18a6639614d26bb8f24cd65bd3944a3"
         }
       }
     },
@@ -22005,6 +22010,31 @@
         "0.4": {
           "deprecated": false,
           "digest": "3dd093d823feba47a79142da4e43aab0a1249acf749c15a419f4e25f8d5bc0a2"
+        }
+      }
+    },
+    "crowdsecurity/http-technology-probing": {
+      "author": "crowdsecurity",
+      "content": "dHlwZTogdHJpZ2dlcgpuYW1lOiBjcm93ZHNlY3VyaXR5L2h0dHAtdGVjaG5vbG9neS1wcm9iaW5nCmRlc2NyaXB0aW9uOiAiRGV0ZWN0IEhUVFAgdGVjaG5vbG9neS92ZW5kb3IgcHJvYmluZyIKZmlsdGVyOiB8CiAgaWYgKGV2dC5NZXRhLnNlcnZpY2UgPT0gJ2h0dHAnIGFuZAogICAgICBldnQuTWV0YS5sb2dfdHlwZSBpbiBbJ2h0dHBfYWNjZXNzLWxvZycsICdodHRwX2Vycm9yLWxvZyddIGFuZAogICAgICBldnQuTWV0YS5odHRwX3N0YXR1cyBpbiBbJzQwNCcsICc0MDMnXSkKICAgIHsKICAgICAgbGV0IHRhcmdldF90ZWNobm9sb2d5ID0gTG9va3VwRmlsZShldnQuTWV0YS5odHRwX3BhdGgsICJ0ZWNobm9sb2d5X3Byb2JpbmcuanNvbiIpOwogICAgICB0YXJnZXRfdGVjaG5vbG9neSAhPSAiIiA/IGV2dC5TZXRNZXRhKCJ0YXJnZXRfdGVjaG5vbG9neSIsIHRhcmdldF90ZWNobm9sb2d5KSAgOiBmYWxzZQogICAgfSBlbHNlIHsgZmFsc2UgfQpncm91cGJ5OiBldnQuTWV0YS5zb3VyY2VfaXAKYmxhY2tob2xlOiAxbQpkYXRhOgogICMgCiAgLSBkZXN0X2ZpbGU6IHRlY2hub2xvZ3lfcHJvYmluZy5qc29uCiAgICBzb3VyY2VfdXJsOiBodHRwczovL2h1Yi1kYXRhLmNyb3dkc2VjLm5ldC93ZWIvdGVjaG5vbG9neV9wcm9iaW5nLmpzb24KICAgIHR5cGU6IG1hcApsYWJlbHM6CiAgY29uZmlkZW5jZTogMwogIHNwb29mYWJsZTogMAogIGNsYXNzaWZpY2F0aW9uOgogICAgLSBhdHRhY2suVDE1OTUKICBiZWhhdmlvcjogImh0dHA6c2NhbiIKICBsYWJlbDogIkhUVFAgVGVjaG5vbG9neSBQcm9iaW5nIgogIHNlcnZpY2U6IGh0dHAKICByZW1lZGlhdGlvbjogZmFsc2UK",
+      "description": "Detect HTTP technology/vendor probing",
+      "labels": {
+        "behavior": "http:scan",
+        "classification": [
+          "attack.T1595"
+        ],
+        "confidence": 3,
+        "label": "HTTP Technology Probing",
+        "remediation": false,
+        "service": "http",
+        "spoofable": 0
+      },
+      "long_description": "QSBzY2VuYXJpbyB0aGF0IGRldGVjdHMgZmluZ2VycHJpbnRpbmcgZm9yIHZhcmlvdXMgKDMwMCspIHZlbmRvcnMgYW5kIHRlY2hub2xvZ2llcy4KCkl0IGRvZXNuJ3QgdHJpZ2dlciBhIGJhbiBvbiBpdHMgb3duLg==",
+      "path": "scenarios/crowdsecurity/http-technology-probing.yaml",
+      "version": "0.1",
+      "versions": {
+        "0.1": {
+          "deprecated": false,
+          "digest": "fb981bab1c8cefebe9d8902fc496747040c43d98b2c0e60552dacc941e1dd773"
         }
       }
     },
