@@ -19344,12 +19344,12 @@
     },
     "crowdsecurity/appsec-native": {
       "author": "crowdsecurity",
-      "content": "dHlwZTogbGVha3kKZm9ybWF0OiAzLjAKbmFtZTogY3Jvd2RzZWN1cml0eS9hcHBzZWMtbmF0aXZlCmRlc2NyaXB0aW9uOiAiSWRlbnRpZnkgYXR0YWNrcyBmbGFnZ2VkIGJ5IENyb3dkU2VjIEFwcFNlYyB2aWEgbmF0aXZlIHJ1bGVzIgpmaWx0ZXI6ICJldnQuTWV0YS5sb2dfdHlwZSA9PSAnYXBwc2VjLWJsb2NrJyAmJiBldnQuTWV0YS5ydWxlX25hbWUgc3RhcnRzV2l0aCAnbmF0aXZlX3J1bGUnIgpsZWFrc3BlZWQ6ICIzMHMiCmNhcGFjaXR5OiAzCmdyb3VwYnk6IGV2dC5NZXRhLnNvdXJjZV9pcApibGFja2hvbGU6IDFtCmxhYmVsczoKICBzZXJ2aWNlOiBodHRwCiAgY29uZmlkZW5jZTogMQogIHNwb29mYWJsZTogMAogIGNsYXNzaWZpY2F0aW9uOgogICAgLSBhdHRhY2suVDExMTAKICBsYWJlbDogIkJsb2NrZWQgYnkgQ3Jvd2RTZWMgQXBwU2VjIgogIGJlaGF2aW9yOiAiaHR0cDpleHBsb2l0IgogIHJlbWVkaWF0aW9uOiB0cnVlCg==",
+      "content": "dHlwZTogbGVha3kKZm9ybWF0OiAzLjAKbmFtZTogY3Jvd2RzZWN1cml0eS9hcHBzZWMtbmF0aXZlCmRlc2NyaXB0aW9uOiAiSWRlbnRpZnkgYXR0YWNrcyBmbGFnZ2VkIGJ5IENyb3dkU2VjIEFwcFNlYyB2aWEgbmF0aXZlIHJ1bGVzIgpmaWx0ZXI6ICJldnQuTWV0YS5sb2dfdHlwZSA9PSAnYXBwc2VjLWJsb2NrJyAmJiBldnQuTWV0YS5ydWxlX25hbWUgc3RhcnRzV2l0aCAnbmF0aXZlX3J1bGUnIgpsZWFrc3BlZWQ6ICIzMHMiCmNhcGFjaXR5OiAzCmdyb3VwYnk6IGV2dC5NZXRhLnNvdXJjZV9pcApibGFja2hvbGU6IDFtCmxhYmVsczoKICBzZXJ2aWNlOiBodHRwCiAgY29uZmlkZW5jZTogMQogIHNwb29mYWJsZTogMAogIGNsYXNzaWZpY2F0aW9uOgogICAgLSBhdHRhY2suVDExOTAKICBsYWJlbDogIkJsb2NrZWQgYnkgQ3Jvd2RTZWMgQXBwU2VjIgogIGJlaGF2aW9yOiAiaHR0cDpleHBsb2l0IgogIHJlbWVkaWF0aW9uOiB0cnVlCg==",
       "description": "Identify attacks flagged by CrowdSec AppSec via native rules",
       "labels": {
         "behavior": "http:exploit",
         "classification": [
-          "attack.T1110"
+          "attack.T1190"
         ],
         "confidence": 1,
         "label": "Blocked by CrowdSec AppSec",
@@ -19358,7 +19358,7 @@
         "spoofable": 0
       },
       "path": "scenarios/crowdsecurity/appsec-native.yaml",
-      "version": "0.2",
+      "version": "0.3",
       "versions": {
         "0.1": {
           "deprecated": false,
@@ -19367,17 +19367,21 @@
         "0.2": {
           "deprecated": false,
           "digest": "4365bbab1a923176eb6b0cdc900c2fc1a1996ef599215bd9eff33b844c9ce703"
+        },
+        "0.3": {
+          "deprecated": false,
+          "digest": "9cc5a60ae4ea5574756d54b8af37e91fb3655ac4be0a07852e574d01c24f7eb9"
         }
       }
     },
     "crowdsecurity/appsec-vpatch": {
       "author": "crowdsecurity",
-      "content": "dHlwZTogbGVha3kKZm9ybWF0OiAzLjAKbmFtZTogY3Jvd2RzZWN1cml0eS9hcHBzZWMtdnBhdGNoCmRlc2NyaXB0aW9uOiAiSWRlbnRpZnkgYXR0YWNrcyBmbGFnZ2VkIGJ5IENyb3dkU2VjIEFwcFNlYyIKIyMgU2VlIGFwcHNlYy1uYXRpdmUueWFtbCBmb3IgcmVhc29ucyB3aHkgd2UgY3JlYXRlZCBhIG5lZ2F0aXZlIHN0YXJ0c1dpdGggaGVyZSwgd2Ugd2FudCB0byBpZ25vcmUgaXMgbmF0aXZlX3J1bGVzIGJ1dCBjYXRjaCBhbnkgb2Ygb3VyIERTTCBydWxlcy4KZmlsdGVyOiAiZXZ0Lk1ldGEubG9nX3R5cGUgPT0gJ2FwcHNlYy1ibG9jaycgJiYgZXZ0Lk1ldGEucnVsZV9uYW1lIG5vdCBzdGFydHNXaXRoICduYXRpdmVfcnVsZSciCmRpc3RpbmN0OiBldnQuTWV0YS5ydWxlX25hbWUKbGVha3NwZWVkOiAiNjBzIgpjYXBhY2l0eTogMQpncm91cGJ5OiBldnQuTWV0YS5zb3VyY2VfaXAKYmxhY2tob2xlOiAxbQpsYWJlbHM6CiAgc2VydmljZTogaHR0cAogIGNvbmZpZGVuY2U6IDMKICBzcG9vZmFibGU6IDAKICBjbGFzc2lmaWNhdGlvbjoKICAgIC0gYXR0YWNrLlQxMTEwCiAgbGFiZWw6ICJCbG9ja2VkIGJ5IENyb3dkU2VjIEFwcFNlYyIKICBiZWhhdmlvcjogImh0dHA6ZXhwbG9pdCIKICByZW1lZGlhdGlvbjogdHJ1ZQo=",
+      "content": "dHlwZTogbGVha3kKZm9ybWF0OiAzLjAKbmFtZTogY3Jvd2RzZWN1cml0eS9hcHBzZWMtdnBhdGNoCmRlc2NyaXB0aW9uOiAiSWRlbnRpZnkgYXR0YWNrcyBmbGFnZ2VkIGJ5IENyb3dkU2VjIEFwcFNlYyIKIyMgU2VlIGFwcHNlYy1uYXRpdmUueWFtbCBmb3IgcmVhc29ucyB3aHkgd2UgY3JlYXRlZCBhIG5lZ2F0aXZlIHN0YXJ0c1dpdGggaGVyZSwgd2Ugd2FudCB0byBpZ25vcmUgaXMgbmF0aXZlX3J1bGVzIGJ1dCBjYXRjaCBhbnkgb2Ygb3VyIERTTCBydWxlcy4KZmlsdGVyOiAiZXZ0Lk1ldGEubG9nX3R5cGUgPT0gJ2FwcHNlYy1ibG9jaycgJiYgZXZ0Lk1ldGEucnVsZV9uYW1lIG5vdCBzdGFydHNXaXRoICduYXRpdmVfcnVsZSciCmRpc3RpbmN0OiBldnQuTWV0YS5ydWxlX25hbWUKbGVha3NwZWVkOiAiNjBzIgpjYXBhY2l0eTogMQpncm91cGJ5OiBldnQuTWV0YS5zb3VyY2VfaXAKYmxhY2tob2xlOiAxbQpsYWJlbHM6CiAgc2VydmljZTogaHR0cAogIGNvbmZpZGVuY2U6IDMKICBzcG9vZmFibGU6IDAKICBjbGFzc2lmaWNhdGlvbjoKICAgIC0gYXR0YWNrLlQxMTkwCiAgbGFiZWw6ICJCbG9ja2VkIGJ5IENyb3dkU2VjIEFwcFNlYyIKICBiZWhhdmlvcjogImh0dHA6ZXhwbG9pdCIKICByZW1lZGlhdGlvbjogdHJ1ZQo=",
       "description": "Identify attacks flagged by CrowdSec AppSec",
       "labels": {
         "behavior": "http:exploit",
         "classification": [
-          "attack.T1110"
+          "attack.T1190"
         ],
         "confidence": 3,
         "label": "Blocked by CrowdSec AppSec",
@@ -19386,7 +19390,7 @@
         "spoofable": 0
       },
       "path": "scenarios/crowdsecurity/appsec-vpatch.yaml",
-      "version": "0.6",
+      "version": "0.7",
       "versions": {
         "0.1": {
           "deprecated": false,
@@ -19411,6 +19415,10 @@
         "0.6": {
           "deprecated": false,
           "digest": "3002570331efd3f821ca69c595033d668fdc972e6abe12ce7393dfe60ef2e524"
+        },
+        "0.7": {
+          "deprecated": false,
+          "digest": "a3494b1898ee95caab663d92d804c08af4a79ba140c9f4b10ee641f2a183ab45"
         }
       }
     },
